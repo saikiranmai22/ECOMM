@@ -6,7 +6,7 @@ app.set("view engine","ejs")
 
 app.use('/images',express.static('images'));
 
-// app.listen(3000)
+
 const dbURL = "mongodb+srv://user:test1234@coder.mdkw6ht.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(dbURL)
 .then(()=>{
