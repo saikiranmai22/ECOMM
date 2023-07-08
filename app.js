@@ -15,7 +15,7 @@ mongoose.connect(dbURL)
 }).catch((err)=>{
     console.log(err)
 })
-
+//index
 app.get("/",(req,res)=>{
     res.render("index",{title:"HOME PAGE"})
     
